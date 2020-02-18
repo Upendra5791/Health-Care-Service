@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 0.0.0 (Windows 7 0.0.0)" package="unit" timestamp="2020-02-08T10:16:49" id="0" hostname="user-PC" tests="118" errors="0" failures="0" time="15.666">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.130 Safari/537.36"/>
+  </properties>
+  <testcase name="AllPatientsListComponent should call getAllPatientsList method when page loads " time="1.306" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should call view method with the id of selected patient" time="0.2" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should call view method with the id of selected patient : case 1" time="0.075" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllPatientsListComponent should call view method with the id of selected patient : case 2" time="0.076" classname="unit.AllPatientsListComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call requestedAppointments method by default " time="0.14" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call view method with the id of selected patient" time="0.129" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call view method with the id of selected patient" time="0.098" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call cancelAppointment method with the id of selected patient" time="0.089" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should call cancelAppointment method with the id of selected patient" time="0.08" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="AllRequestedAppointmentsComponent should fetch all appointments after cancelling an appointment" time="0.069" classname="unit.AllRequestedAppointmentsComponent"/>
+  <testcase name="FormComponent All validation errors should be hidden and form should be invalid by default" time="1.365" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display no firstname validation error when the field kept as null(dirty)" time="0.22" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display firstname minimum length validation error when the field has less than 3 length" time="0.25" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display firstname maximun length validation error when the field has greater than 20 length" time="0.236" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display no firstname validation error when the field kept as null(dirty)" time="0.287" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display lastname minimum length validation error when the field has less than 3 length" time="0.193" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display lastname maximun length validation error when the field has greater than 20 length" time="0.224" classname="unit.FormComponent"/>
+  <testcase name="FormComponent gender field validity" time="0.175" classname="unit.FormComponent"/>
+  <testcase name="FormComponent gender validation gets pass when clicking male radio button" time="0.24" classname="unit.FormComponent"/>
+  <testcase name="FormComponent gender validation gets pass when clicking female radio button" time="0.251" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display no date of birth validation error when the field kept as null(dirty)" time="0.241" classname="unit.FormComponent"/>
+  <testcase name="FormComponent Date of birth validation gets pass when the field has valid value" time="0.28" classname="unit.FormComponent"/>
+  <testcase name="FormComponent mobile field validity" time="0.199" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display no mobile number validation error when the field has kept as null(dirty)" time="0.199" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display mobile number pattern validation error when the field has value" time="0.176" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display mobile maximun length validation error when the field has greater than 10 length" time="0.175" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display email pattern validation error when the field has kept as null(dirty)" time="0.168" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should display email pattern validation error when the field has no value" time="0.21" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should not display email validation error when the field has valid input" time="0.183" classname="unit.FormComponent"/>
+  <testcase name="FormComponent should call submitform method for valid form" time="0.228" classname="unit.FormComponent"/>
+  <testcase name="HeaderComponent should get logged user id by default" time="0.156" classname="unit.HeaderComponent"/>
+  <testcase name="HeaderComponent should get profile details by default" time="0.081" classname="unit.HeaderComponent"/>
+  <testcase name="HeaderComponent should get logged user details" time="0.058" classname="unit.HeaderComponent"/>
+  <testcase name="LoginComponent All validation errors should be hidden and form should be invalid by default" time="0.11" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display no username validation error when the field kept as null(dirty)" time="0.106" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display minlength 3 username validation error when the username length less than 3" time="0.11" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display maxlength username validation error when the username length greater than 20" time="0.113" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should not display any error when the username field is valid" time="0.122" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display no password validation error when the field kept as null(dirty)" time="0.113" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display minlength 8 password validation error when the password length less than 8" time="0.093" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display maxlength password validation error when the password length exceeds 20" time="0.112" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should display password pattern validation error" time="0.109" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should not display password error when the password field is valid" time="0.129" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should enable login button(form valid) when both field are valid" time="0.151" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should hide validation messages and call login method from authservice for valid credentials" time="0.226" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent should redirect to dashboard on correct credentials" time="0.215" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent #authenticateUser should return error on occurence of error" time="0.133" classname="unit.LoginComponent"/>
+  <testcase name="LoginComponent #dologin should return false if form is invalid" time="0.107" classname="unit.LoginComponent"/>
+  <testcase name="ProfileComponent should display profile details on load" time="0.299" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent should display edit profile form on edit profile button click" time="0.316" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent should display profile details on clicking discard button" time="0.28" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent should validate the edit profile form" time="0.335" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent should populate form fields with values on edit profile button click" time="0.236" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent should submit profile changes with validation" time="0.282" classname="unit.ProfileComponent"/>
+  <testcase name="ProfileComponent #getProfileDetails should return error on occurence of error" time="0.234" classname="unit.ProfileComponent"/>
+  <testcase name="ViewPatientComponent should call getParticularPatient method of DataService by default" time="0.22" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent Book Appointment &amp; Scheduled Appointment should be enabled by default" time="0.225" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent &quot;Book Appointment&quot; button should be disabled after clicking on that button" time="0.324" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent &quot;Scheduled Appointment&quot; button should be disabled after clicking on that button" time="0.218" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should get diseasesList when clicking on &quot;Book Appointment&quot;" time="0.233" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call scheduleAppointment method for valid form input&quot;" time="0.233" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call bookAppointment method of DataService with appointment details" time="0.224" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should navigate to requested_appointments page after booking an appointment" time="0.257" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call cancelAppointment method with selected appointment id" time="0.237" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call deleteAppointment method of DataService with selected appointment id" time="0.274" classname="unit.ViewPatientComponent"/>
+  <testcase name="ViewPatientComponent should call scheduleded method after deleting an appointment" time="0.204" classname="unit.ViewPatientComponent"/>
+  <testcase name="ApiService login should send user credentials in post request body" time="0.038" classname="unit.ApiService"/>
+  <testcase name="ApiService login should return user details if auth success" time="0.028" classname="unit.ApiService"/>
+  <testcase name="ApiService login should return error message if auth fails" time="0.025" classname="unit.ApiService"/>
+  <testcase name="ApiService getUserDetails should return user details" time="0.018" classname="unit.ApiService"/>
+  <testcase name="ApiService updateDetails should return new user details after submitting the update" time="0.025" classname="unit.ApiService"/>
+  <testcase name="ApiService registerPatient should add patient details in post request body" time="0.02" classname="unit.ApiService"/>
+  <testcase name="ApiService registerPatient should return patient details if POST method success" time="0.019" classname="unit.ApiService"/>
+  <testcase name="ApiService getParticularPatient should return particular patient details" time="0.018" classname="unit.ApiService"/>
+  <testcase name="ApiService getAllPatientsList should return all patient details" time="0.029" classname="unit.ApiService"/>
+  <testcase name="ApiService getDiseasesList should return disease list" time="0.018" classname="unit.ApiService"/>
+  <testcase name="ApiService bookAppointment should add appointment details in post request body" time="0.019" classname="unit.ApiService"/>
+  <testcase name="ApiService bookAppointment should return patient details if POST method success" time="0.022" classname="unit.ApiService"/>
+  <testcase name="ApiService getAppointments should return requested appointments of particular patient" time="0.017" classname="unit.ApiService"/>
+  <testcase name="ApiService deleteAppointment returns empty response" time="0.013" classname="unit.ApiService"/>
+  <testcase name="ApiService requestedAppointments should return all appointments requested by all patients" time="0.017" classname="unit.ApiService"/>
+  <testcase name="DataService  should return false after creation" time="0.01" classname="unit.DataService"/>
+  <testcase name="DataService #dologin should return isLogin as false on click logout" time="0.025" classname="unit.DataService"/>
+  <testcase name="DataService  should return true on logging in with right credentials" time="0.044" classname="unit.DataService"/>
+  <testcase name="DataService  should return 1 from local storage if exists and isLogin is true" time="0.018" classname="unit.DataService"/>
+  <testcase name="DataService  should return -1 userId from local storage if exists but isLogin is false" time="0.031" classname="unit.DataService"/>
+  <testcase name="DataService  should return -1 userId from local storage if exists but isLogin is false" time="0.028" classname="unit.DataService"/>
+  <testcase name="DataService  should return -1 if user is no logged in or userid not exists in localstorage" time="0.015" classname="unit.DataService"/>
+  <testcase name="DataService  should return -1 if user is no logged in or userid in localstorage is invalid" time="0.013" classname="unit.DataService"/>
+  <testcase name="DataService  should return -1 if user is no logged in or userid in localstorage is invalid" time="0.013" classname="unit.DataService"/>
+  <testcase name="DataService  should return false on logging in with invalid  credentials" time="0.023" classname="unit.DataService"/>
+  <testcase name="DataService #getAuthStatus should return true for valid users for checking auth status" time="0.015" classname="unit.DataService"/>
+  <testcase name="DataService #getAuthStatus should return false for invalid users for checking auth status" time="0.014" classname="unit.DataService"/>
+  <testcase name="DataService #getUserDetails should return user details on providing valid user id" time="0.019" classname="unit.DataService"/>
+  <testcase name="DataService #getUserDetails should return error on providing invalid user id" time="0.027" classname="unit.DataService"/>
+  <testcase name="DataService #getUserDetails should return error on occurence of error" time="0.017" classname="unit.DataService"/>
+  <testcase name="DataService #updateProfile should return true on providing valid user details" time="0.02" classname="unit.DataService"/>
+  <testcase name="DataService #updateProfile should return false on occurence of error" time="0.02" classname="unit.DataService"/>
+  <testcase name="DataService #registerPatient should return patientDetails  on reporting with valid user id " time="0.017" classname="unit.DataService"/>
+  <testcase name="DataService #registerPatient should return null on reporting with invalid id " time="0.01" classname="unit.DataService"/>
+  <testcase name="DataService #registerPatient should return error on occurence of error" time="0.018" classname="unit.DataService"/>
+  <testcase name="DataService #getAllPatientsList should return user details on providing valid user id" time="0.02" classname="unit.DataService"/>
+  <testcase name="DataService #getAllPatientsList should return error on providing invalid user id" time="0.022" classname="unit.DataService"/>
+  <testcase name="DataService #getAllPatientsList should return error on occurence of error" time="0.015" classname="unit.DataService"/>
+  <testcase name="DataService #getParticularPatient should return patient details on providing valid user id" time="0.023" classname="unit.DataService"/>
+  <testcase name="DataService #getParticularPatient should return error on providing invalid user id" time="0.04" classname="unit.DataService"/>
+  <testcase name="DataService #getParticularPatient should return error on occurence of error" time="0.031" classname="unit.DataService"/>
+  <testcase name="DataService #getDiseasesList should return list on providing valid user id" time="0.017" classname="unit.DataService"/>
+  <testcase name="DataService #getDiseasesList should return error on providing invalid user id" time="0.017" classname="unit.DataService"/>
+  <testcase name="DataService #getDiseasesList should return error on occurence of error" time="0.017" classname="unit.DataService"/>
+  <testcase name="DataService #bookAppointment should return appointmentDetails  on reporting with valid user id " time="0.007" classname="unit.DataService"/>
+  <testcase name="DataService #bookAppointment should return error on occurence of error" time="0.016" classname="unit.DataService"/>
+  <testcase name="DataService #getAppointments should return appointment details on providing valid user id" time="0.015" classname="unit.DataService"/>
+  <testcase name="DataService #getAppointments should return error on occurence of error" time="0.013" classname="unit.DataService"/>
+  <testcase name="DataService #deleteAppointment should return empty object on providing valid user id" time="0.009" classname="unit.DataService"/>
+  <testcase name="DataService #deleteAppointment should return error on occurence of error" time="0.012" classname="unit.DataService"/>
+  <testcase name="DataService #requestedAppointments should return appointments on providing valid user id" time="0.018" classname="unit.DataService"/>
+  <testcase name="DataService #requestedAppointments should return error on occurence of error" time="0.014" classname="unit.DataService"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Object{firstName: 'xxxxxxx', lastName: 'yyyyyyyy', gender: 'male', dob: '2018-12-25', mobile: '8870783265', email: 'xxxxx@gmail.com', description: '', registeredTime: '2020-02-08'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Object{firstName: 'xxxxxxx', lastName: 'yyyyyyyy', gender: 'male', dob: '2018-12-25', mobile: '8870783265', email: 'xxxxx@gmail.com', description: '', registeredTime: '2020-02-08'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: false
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: true
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Object{status: 404}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: false
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) WARN: '
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    '
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) WARN: '
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    '
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) WARN: '
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    '
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) WARN: '
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    '
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) WARN: '
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+    '
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: Users{username: 'test', location: 'testLocation', mobile: '1234567890', email: 'test@test.com'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: HttpErrorResponse{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, headers: Map{}}, status: 404, statusText: 'Not Found', url: null, ok: false, name: 'HttpErrorResponse', message: 'Http failure response for (unknown url): 404 Not Found', error: 'test 404 error'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: HttpErrorResponse{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, headers: Map{}}, status: 404, statusText: 'Not Found', url: null, ok: false, name: 'HttpErrorResponse', message: 'Http failure response for (unknown url): 404 Not Found', error: 'test 404 error'}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: 'Appointment deleted!'
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: HttpErrorResponse{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, headers: Map{}}, status: 401, statusText: 'Unknown Error', url: 'api/auth/server/', ok: false, name: 'HttpErrorResponse', message: 'Http failure response for api/auth/server/: 401 ', error: Object{message: 'Invalid username or password'}}
+,HeadlessChrome 0.0.0 (Windows 7 0.0.0) LOG: HttpErrorResponse{headers: HttpHeaders{normalizedNames: Map{}, lazyUpdate: null, headers: Map{}}, status: 404, statusText: 'Not Found', url: null, ok: false, name: 'HttpErrorResponse', message: 'Http failure response for (unknown url): 404 Not Found', error: 'test 404 error'}
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
